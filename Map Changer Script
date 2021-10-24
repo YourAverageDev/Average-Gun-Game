@@ -1,0 +1,23 @@
+Map Changer Script For Average Gun Game
+
+
+while true do (Forever)
+	game.Lighting.Map1:clone().Parent = game.Workspace (Gets object named Map1 from Lighting)
+	wait(529) (The time of waiting in between maps)
+
+
+	wait(4)
+	game.Workspace.Map1:remove()(Removes map from workspace)
+	wait(2)
+
+	game.Lighting.Map2:clone().Parent = game.Workspace(Gets Map2 From lighting and puts it into workspace)
+	wait(529)(The time of waiting in between maps)
+
+
+	wait(4)
+	game.Workspace.Map2:remove()(Removes map from workspace)
+	wait(2)
+
+
+
+end 
