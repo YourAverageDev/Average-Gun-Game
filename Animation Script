@@ -1,0 +1,11 @@
+Animation Script
+
+game.Players.PlayerAdded:connect(function(player)(WHen Player connected)
+		player.CharacterAdded:connect(function(character)
+			player.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=7643364521"(Player Walk animation is now 7643364521)
+			player.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=7643367225"(Player Fall animation is now 7643367225)
+			player.Character.Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=7643374238"(Player Jump animation is now 7643374238)
+			player.Character.Animate.swim.SwimAnim.AnimationId = "http://www.roblox.com/asset/?id=7643583763"(Player Swim animation is now 7643583763)
+		end)
+end)
+
