@@ -1,6 +1,6 @@
 Animation Script
 
-game.Players.PlayerAdded:connect(function(player)(WHen Player connected)
+game.Players.PlayerAdded:connect(function(player)(When Player connected)
 		player.CharacterAdded:connect(function(character)
 			player.Character.Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=7643364521"(Player Walk animation is now 7643364521)
 			player.Character.Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=7643367225"(Player Fall animation is now 7643367225)
